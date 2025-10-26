@@ -1,0 +1,50 @@
+# === Python umumiy ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.pot
+*.pyc
+
+# === Virtual environment (venv) ===
+venv/
+env/
+.venv/
+
+# === IDE va tizim fayllari ===
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# === Cache va vaqtinchalik fayllar ===
+.cache/
+.mypy_cache/
+pytest_cache/
+*.sqlite3
+
+# === Token va maxfiy ma'lumotlar ===
+.env
+*.env
+config.json
+
+# === Aiogram / log fayllari ===
+*.session
+*.session-journal
+*.db-shm
+*.db-wal
+
+# === Test / build fayllar ===
+dist/
+build/
+*.spec
+
+# === OS tomonidan yaratiladigan fayllar ===
+*.bak
+*.tmp
+
+# === Jupyter yoki markdown fayllar (agar ishlatilmasa) ===
+.ipynb_checkpoints/
