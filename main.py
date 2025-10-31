@@ -21,7 +21,6 @@ TOKEN=env.str("TOKEN")
 async def main():
 
     bot = Bot(token=TOKEN)
-    dp = Dispatcher()
     dp.include_router(start_router)
 
     await dp.start_polling(bot)
