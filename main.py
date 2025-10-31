@@ -3,14 +3,14 @@ from environs import Env
 import logging
 
 import asyncio
+import os
 
 from handlers import start_router
 
-env=Env()
-env.read_env()
+
 
 dp=Dispatcher()
-TOKEN=env.str("TOKEN")
+TOKEN=os.getenv("TOKEN")
 
 
 
